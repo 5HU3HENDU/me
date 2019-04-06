@@ -1,3 +1,3 @@
 # blog
 My Personal Blog
-visit <a href="https://Shubhendu15.github.io/me">here</a>
+visit <a href="https://Shubhendusingh.com">here</a>
