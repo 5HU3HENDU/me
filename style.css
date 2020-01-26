@@ -16,12 +16,12 @@
 
 
 p {
-  text-align: center;
+  text-align: left;
   font-size : 1.1em;
 }
 
 #blog {
-	text-align: center;
+	text-align: left;
 	font-size : 1.1em;
 	margin:0;
 	padding:0;
