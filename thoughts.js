@@ -17,7 +17,9 @@ var thoughts = {
         "Machine learning/AI is like that joke, which only few understand, but everyone laughs.",
         "All advices are autobiographical - Quote from Steal Like An Artist.",
         "More important than AI (artificial intelligence) & BI (business intelligence) is CI (common intelligence).",      
-        "Be selfish, enjoy self ishq."
+        "Be selfish, enjoy self ishq.",
+        "1.1<sup>365</sup> = 1.2833056<sup>15</sup>"
+
 
 
 
