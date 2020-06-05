@@ -12,7 +12,8 @@ var thoughts = {
 	"People judge things backward.",
 	"Sometimes success feels like an failure.",
 	"Make 2020 a memorable year.",
-	"There's no knight without a nightmare."
+	"There's no knight without a nightmare.",
+        "Humans are driven by outliers"
 
 	]
 
