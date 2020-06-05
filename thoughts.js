@@ -16,8 +16,12 @@ var thoughts = {
         "Humans are driven by outliers.",
         "Machine learning/AI is like that joke, which only few understand, but everyone laughs.",
         "All advices are autobiographical - Quote from Steal Like An Artist.",
-        "More important that AI (artificial intelligence) & BI (business intelligence) is CI (common intelligence)."
-       
+        "More important than AI (artificial intelligence) & BI (business intelligence) is CI (common intelligence).",      
+        "Be selfish, enjoy self ishq."
+
+
+
+
 
 
 
