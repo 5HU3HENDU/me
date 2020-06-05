@@ -17,7 +17,8 @@ var favs = {
 	"The Terminal",
 	"Wreck it Ralph",
 	"Ralph breaks the internet",
-	"Aankhodekhi"
+	"Aankhodekhi",
+        "Dhobi Ghat"
 
 	],
 
