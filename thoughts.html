@@ -8,7 +8,7 @@
 
 
 <link rel="stylesheet" href="style.css">
-
+<script src="thoughts.js"></script>
 </head>
 
 <body>
@@ -32,46 +32,52 @@ Thoughts...
 <a href="favourites.html">Favourites</a>
 </li>
 </ul>
-<hr>﻿<p id = "blog">
-Live life on "Regret Minimization Framework".
-</p>
 <hr>
-<p id = "blog">
-"Sorry" is better than "may I...?" 
-</p>
-<hr>
-<p id = "blog">
-Do bad things, with permission... people might allow it.
-Do good things, without permission... and ask for forgiveness later, if needed.
-</p>
-<hr>
-<p id = "blog">
-The only difference between success & failure is "COURAGE".
-</p>
-<hr>
-<p id = "blog">
-Manage energy, not time.
-</p>
-<hr>
-<p id = "blog">
-Be remembered for good.
-</p>
-<hr>
-<p id = "blog">
-Don't be a jerk.
-</p>
-<hr>
-<p id = "blog">
-People judge things backward.
-</p>
-<hr>
-<p id = "blog">
-Sometimes success feels like an failure.
-</p>
-<hr>
-<p id = "blog">
-Make 2020 a memorable year.
-</p>
-<hr>
-﻿</body>
+
+<div id="thoughts"></div>
+
+
+
+<script type="text/javascript">	
+
+
+function random_array(a) {
+
+	var random_a = [];
+
+	while(a.length>0){
+		x = Math.floor(Math.random() * (a.length));
+		random_a.push(a[x]);
+		a.splice(x,1);
+
+	}
+	return random_a;
+}
+
+
+
+var txt = "";
+
+var topics = Object.keys(thoughts);
+
+topics = random_array(topics);
+
+for (var i =0; i< topics.length ; i++) {
+	txt += "<h2>"+topics[i]+"</h2>";
+
+	var content = thoughts[topics[i]];
+
+	content = random_array(content);
+
+	txt += content.join("</p><hr><p id=\"blog\">");
+
+	txt = "<p id=\"blog\">"+ txt + "</p><hr>";
+
+}
+
+document.getElementById("thoughts").innerHTML = txt  
+ 
+  
+
+</body>
 </html>
