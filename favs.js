@@ -12,9 +12,9 @@ var favs = {
 	"The Imitation Game",
 	"Masaan",
 	"Rockstar",
-	"Wall - e".
+	"Wall - e",
 	"Forrest Gump",
-	"The Terminal"
+	"The Terminal",
 	"Wreck it Ralph",
 	"Ralph breaks the internet",
 	"Aankhodekhi"
