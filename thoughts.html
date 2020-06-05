@@ -69,9 +69,11 @@ for (var i =0; i< topics.length ; i++) {
 
 	content = random_array(content);
 
-	txt += content.join("</p><hr><p id=\"blog\">");
+	content = content.join("</p><hr><p id=\"blog\">");
 
-	txt = "<p id=\"blog\">"+ txt + "</p><hr>";
+	content = "<p id=\"blog\">"+ content + "</p><hr>";
+
+	txt = txt + content;
 
 }
 
