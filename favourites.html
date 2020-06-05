@@ -1,4 +1,4 @@
-﻿ <!doctype HTML>
+<!doctype HTML>
 <html lang = "en">
 <head>
 <meta charset="utf-8">
@@ -8,7 +8,8 @@
 
 
 <link rel="stylesheet" href="style.css">
-
+<script src="favs.js"></script>
+  
 </head>
 
 <body>
@@ -37,31 +38,49 @@ Some of my favourite things...
 Not the exhaustive list.
 Order agnostic.
 </p>
+<div id="favs"></div>
 
 
-<h2>
-Books
-</h2>
-<p>
-Steve Jobs - by Walter Issacson, The Code Book - by Simon Singh, Algorithms to Live by, The Shape of Ideas, Don't make me think,
-The Dilbert Principle, The Art of Start, The hard thing about hard things,
-0 to 1, Hooked, Steal Like an Artist, Cartoon guide to statistics, just enough research...
-</p>
+
+<script type="text/javascript">	
 
 
-<h2>
-Movies
-</h2>
-<p>
-The Social Network, The Prestige, The imitation game, Masaan, Rockstar, Wall - e, Forrest Gump, The Terminal...
-</p>
+function random_array(a) {
 
-<h2>
-TV shows
-</h2>
-<p>
-Sherlock Holmes, The Breaking Bad, Game of Thrones, TVF Pitchers
-</p>
+	var random_a = [];
 
-﻿</body>
+	while(a.length>0){
+		x = Math.floor(Math.random() * (a.length));
+		random_a.push(a[x]);
+		a.splice(x,1);
+
+	}
+	return random_a;
+}
+
+
+
+
+var txt = "";
+
+var topics = Object.keys(favs);
+
+topics = random_array(topics);
+
+for (var i =0; i< topics.length ; i++) {
+	txt += "<h2>"+topics[i]+"</h2>";
+
+	var content = favs[topics[i]];
+
+	content = random_array(content);
+
+	txt += "<p>"+content.join(", ")+"</p>";
+}
+
+document.getElementById("favs").innerHTML = txt
+
+</script>
+
+
+</body>
 </html>
