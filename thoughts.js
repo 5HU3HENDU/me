@@ -13,7 +13,15 @@ var thoughts = {
 	"Sometimes success feels like an failure.",
 	"Make 2020 a memorable year.",
 	"There's no knight without a nightmare.",
-        "Humans are driven by outliers"
+        "Humans are driven by outliers.",
+        "Machine learning/AI is like that joke, which only few understand, but everyone laughs.",
+        "All advices are autobiographical - Quote from Steal Like An Artist.",
+        "More important that AI (artificial intelligence) & BI (business intelligence) is CI (common intelligence)."
+       
+
+
+
+
 
 	]
 
