@@ -19,7 +19,8 @@ var favs = {
 	"Ralph breaks the internet",
 	"Aankhodekhi",
         "Dhobi Ghat",
-        "Andhadhun"
+        "Andhadhun",
+        "Soorma"
 
 	],
 
