@@ -19,7 +19,8 @@ var thoughts = {
         "More important than AI (artificial intelligence) & BI (business intelligence) is CI (common intelligence).",      
         "Be selfish, enjoy self ishq.",
         "1.1<sup>365</sup> = 1.2833056<sup>15</sup>",
-        "I love Art, Business & Coding."
+        "I love Art, Business & Coding.",
+        "Love/Shit Happens."
 
 
 
