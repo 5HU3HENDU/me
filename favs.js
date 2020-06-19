@@ -20,7 +20,8 @@ var favs = {
 	"Aankhodekhi",
         "Dhobi Ghat",
         "Andhadhun",
-        "Soorma"
+        "Soorma",
+        "Shazam"
 
 	],
 
