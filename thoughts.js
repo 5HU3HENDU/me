@@ -20,7 +20,8 @@ var thoughts = {
         "Be selfish, enjoy self ishq.",
         "1.1<sup>365</sup> = 1.2833056<sup>15</sup>",
         "I love Art, Business & Coding.",
-        "Love/Shit Happens."
+        "Love/Shit Happens.",
+        "How to solve some of the problems? Don't create them at first place."
 
 
 
