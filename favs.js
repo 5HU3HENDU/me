@@ -22,7 +22,8 @@ var favs = {
         "Andhadhun",
         "Soorma",
         "Shazam",
-        "Onward"
+        "Onward",
+        "Laal Rang"
 
 	],
 
