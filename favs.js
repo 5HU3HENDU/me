@@ -23,7 +23,9 @@ var favs = {
         "Soorma",
         "Shazam",
         "Onward",
-        "Laal Rang"
+        "Laal Rang",
+        "Austin Powers",
+        "Secret Life of Walter Mitty"
 
 	],
 
