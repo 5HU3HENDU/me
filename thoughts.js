@@ -24,7 +24,8 @@ var thoughts = {
         "How to solve some of the problems? Don't create them at first place.",
         "Explore, Experiment, Experience... Expire",
         "What, why and then how",
-        "Half truths are dangerous than lies"
+        "Half truths are more dangerous than lies",
+        "Nothing is easy, but few things surely have better returns on investments."
 
 
 
