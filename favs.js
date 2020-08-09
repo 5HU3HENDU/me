@@ -25,7 +25,9 @@ var favs = {
         "Onward",
         "Laal Rang",
         "Austin Powers",
-        "Secret Life of Walter Mitty"
+        "Secret Life of Walter Mitty",
+        "Jerry Maguire",
+        "Cast Away"
 
 	],
 
