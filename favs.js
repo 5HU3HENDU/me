@@ -66,4 +66,12 @@ var favs = {
 
 	],
 
+
+        "Links" : [
+        "https://basecamp.com/gettingreal",
+        "https://cdn.ycombinator.com/resources/"
+
+
+        ]
+
 };
