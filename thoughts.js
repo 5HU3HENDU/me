@@ -27,7 +27,8 @@ var thoughts = {
         "Half truths are more dangerous than lies",
         "Nothing is easy, but few things surely have better returns on investments.",
         "I strongly believe you decide your own fate, if you do X or don't do X, it's your choice, not your fate. And fate is dependent on all Xs that you do.",
-        "I hate people, who try to impose their way of life/ideology on others. Don't ask me why :)"
+        "I hate people, who try to impose their way of life/ideology on others. Don't ask me why :)",
+        "There's always a better way to say the same exact thing."
 
 
 
