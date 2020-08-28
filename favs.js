@@ -61,7 +61,8 @@ var favs = {
 	"The Dilbert",
 	"Breaking Bad",
 	"Pitchers",
-        "Byomkesh Bakshi"
+        "Byomkesh Bakshi",
+        "Dexter"
 
 
 	],
