@@ -62,7 +62,9 @@ var favs = {
 	"Breaking Bad",
 	"Pitchers",
         "Byomkesh Bakshi",
-        "Dexter"
+        "Dexter",
+        "Silicon Valley",
+        "Ballers"
 
 
 	],
