@@ -34,50 +34,54 @@ Thoughts...
 </ul>
 <hr>
 
-<div id="thoughts"></div>
+<div id="thoughts">
 
+<a class="twitter-timeline" href="https://twitter.com/5HU3HENDU?ref_src=twsrc%5Etfw">
+Tweets by 5HU3HENDU
+</a>		
+</div>
 
-
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <script type="text/javascript">	
 
 
-function random_array(a) {
+// function random_array(a) {
 
-	var random_a = [];
+// 	var random_a = [];
 
-	while(a.length>0){
-		x = Math.floor(Math.random() * (a.length));
-		random_a.push(a[x]);
-		a.splice(x,1);
+// 	while(a.length>0){
+// 		x = Math.floor(Math.random() * (a.length));
+// 		random_a.push(a[x]);
+// 		a.splice(x,1);
 
-	}
-	return random_a;
-}
+// 	}
+// 	return random_a;
+// }
 
 
 
-var txt = "";
+// var txt = "";
 
-var topics = Object.keys(thoughts);
+// var topics = Object.keys(thoughts);
 
-topics = random_array(topics);
+// topics = random_array(topics);
 
-for (var i =0; i< topics.length ; i++) {
-	txt += "<h2>"+topics[i]+"</h2>";
+// for (var i =0; i< topics.length ; i++) {
+// 	txt += "<h2>"+topics[i]+"</h2>";
 
-	var content = thoughts[topics[i]];
+// 	var content = thoughts[topics[i]];
 
-	content = random_array(content);
+// 	content = random_array(content);
 
-	content = content.join("</p><hr><p id=\"blog\">");
+// 	content = content.join("</p><hr><p id=\"blog\">");
 
-	content = "<p id=\"blog\">"+ content + "</p><hr>";
+// 	content = "<p id=\"blog\">"+ content + "</p><hr>";
 
-	txt = txt + content;
+// 	txt = txt + content;
 
-}
+// }
 
-document.getElementById("thoughts").innerHTML = txt  
+// document.getElementById("thoughts").innerHTML = txt  
  
 	</script>  
 
