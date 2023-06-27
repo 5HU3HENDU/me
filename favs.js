@@ -64,7 +64,9 @@ var favs = {
         "Byomkesh Bakshi",
         "Dexter",
         "Silicon Valley",
-        "Ballers"
+        "Ballers",
+"Rocket Boys",
+"Halt and Catch Fire"
 
 
 	],
