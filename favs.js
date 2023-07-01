@@ -73,8 +73,8 @@ var favs = {
 
 
         "Links" : [
-        "https://basecamp.com/gettingreal",
-        "https://cdn.ycombinator.com/resources/"
+        "https://basecamp.com/gettingreal",      "https://cdn.ycombinator.com/resources/",
+"http://paulgraham.com/articles.html"
 
 
         ]
