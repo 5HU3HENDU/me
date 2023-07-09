@@ -66,7 +66,8 @@ var favs = {
         "Silicon Valley",
         "Ballers",
 "Rocket Boys",
-"Halt and Catch Fire"
+"Halt and Catch Fire",
+"Pepsi, where's my jet?"
 
 
 	],
