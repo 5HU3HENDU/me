@@ -67,7 +67,8 @@ var favs = {
         "Ballers",
 "Rocket Boys",
 "Halt and Catch Fire",
-"Pepsi, where's my jet?"
+"Pepsi, where's my jet?",
+"Spy"
 
 
 	],
@@ -75,7 +76,8 @@ var favs = {
 
         "Links" : [
         "https://basecamp.com/gettingreal",      "https://cdn.ycombinator.com/resources/",
-"http://paulgraham.com/articles.html"
+"http://paulgraham.com/articles.html",
+"https://37signals.com/"
 
 
         ]
