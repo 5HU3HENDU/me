@@ -27,7 +27,9 @@ var favs = {
         "Austin Powers",
         "Secret Life of Walter Mitty",
         "Jerry Maguire",
-        "Cast Away"
+        "Cast Away",
+"Rise of Gru",
+"Air"
 
 	],
 
