@@ -24,13 +24,19 @@
 
 <div id="content">
 
-    <iframe width="100%" height="100%" frameborder="0" src="https://bombay-analytics.streamlit.app/?embedded=true" title="description">
+    <iframe width="100%" height="100%" frameborder="0" src="https://bombay-analytics.streamlit.app/?embedded=true" title="description" onload="onLoadHandler();>
 
 </iframe>
 
   <script>
+
+function onLoadHandler() {  
+  
 var els = document.querySelectorAll("a[href='https://streamlit.io/cloud']");
 els[0].style.display = 'none';
+
+}
+      
 </script>     
   
   </body>
